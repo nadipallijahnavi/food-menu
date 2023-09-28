@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          /* Style the container */
+          body{
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdCMuIZbtm5YHjEiqr1_qvntL7D_GhuTppHG5gCU0NoJv41dC9w-uRScoi3Nhy5gPu0yU&usqp=CAU');
+            background-repeat: no-repeat;
+    background-size: cover;  
+        }
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form header */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the input fields and labels */
+.label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+#submit {
+    width: 30%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: -100px;
+    margin-left: 500px;
+}
+
+#submit:hover {
+    background-color: #0056b3;
+}
+
+/* Optional: Add more styling as needed */
+
+    </style>
+</head>
+<body>
+    <h1>Login Form</h1>
+        <div class="container">
+            <form method="post" action="/loginSubmit">
+                <div class="username">
+                    <label id="username">Username :</label>
+                    <input type="text" name="username" />
+                </div>
+                    <br>
+                    <br>
+                    <br>
+                <div class="pass"></div>
+                    <label id="password">Password :</label>
+                    <input type="password" name="password" />
+                </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                <button type="submit" id="submit" value="Submit">SUBMIT</button>
+            </form>
+</body>
+</html>
